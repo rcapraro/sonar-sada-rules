@@ -16,14 +16,14 @@ import java.util.stream.Collectors;
 
 /**
  * Checks the presence of at least one line of javadoc.
- * A javadoc should not contain only one line containing the tag <pre>@author</pre>
+ * A sufficient javadoc should not be made of only one line containing the tag <pre>@author</pre>
  */
 @Rule(
         key = "InsufficientJavadoc",
         name = "Insufficient Javadoc content",
         description = "For a class, interface or enum, the javadoc should not be empty and should not begin only with the @author tag.",
         priority = Priority.MAJOR,
-        tags = {"bug"})
+        tags = {"convention"})
 public class InsufficientJavadocCheck extends BaseTreeVisitor implements JavaFileScanner {
 
     private JavaFileScannerContext context;

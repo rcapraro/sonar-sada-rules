@@ -1,9 +1,26 @@
 <p>This rule detects insufficient javadoc (empty or containing only the @author tag)</p>
 <h2>Noncompliant Code Example</h2>
 <pre>
-TO DO 
+/**
+ *
+ * @author lazyman
+ **/
+class ClassWithInsufficientJavadoc {
+
+    int aField;
+
+}
 </pre>
 <h2>Compliant Solution</h2>
 <pre>
-TO DO 
+/**
+ * This class is responsible for something very important.
+ *
+ * @author braveman
+ **/
+class ClassWithJavadoc {
+
+    int aField;
+
+}
 </pre>

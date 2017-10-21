@@ -32,6 +32,7 @@ import org.sonar.api.server.rule.RulesDefinitionAnnotationLoader;
 import org.sonar.api.utils.AnnotationUtils;
 import org.sonar.check.Cardinality;
 import org.sonar.squidbridge.annotations.RuleTemplate;
+import org.sonar.plugins.java.Java;
 
 import javax.annotation.Nullable;
 import java.io.IOException;
@@ -56,7 +57,7 @@ public class SadaJavaRulesDefinition implements RulesDefinition {
   @Override
   public void define(Context context) {
     NewRepository repository = context
-      .createRepository(REPOSITORY_KEY, "JAVA")
+      .createRepository(REPOSITORY_KEY, Java.KEY)
       .setName("SADA Custom Repository");
 
     List<Class> checks = RulesList.getChecks();
