@@ -58,7 +58,7 @@ public class SadaJavaRulesDefinition implements RulesDefinition {
   public void define(Context context) {
     NewRepository repository = context
       .createRepository(REPOSITORY_KEY, Java.KEY)
-      .setName("SADA Custom Repository");
+      .setName("SADA Assurances");
 
     List<Class> checks = RulesList.getChecks();
     new RulesDefinitionAnnotationLoader().load(repository, Iterables.toArray(checks, Class.class));
