@@ -5,7 +5,7 @@
 
     <groupId>com.sada</groupId>
     <artifactId>sonar-sada-rules</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <packaging>sonar-plugin</packaging>
 
     <name>SonarQube Sada Java Rules</name>
