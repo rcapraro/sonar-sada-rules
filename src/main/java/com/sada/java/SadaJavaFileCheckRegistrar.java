@@ -1,7 +1,7 @@
 /*
- * SonarQube Java Custom Rules Example
- * Copyright (C) 2016-2016 SonarSource SA
- * mailto:contact AT sonarsource DOT com
+ * Sada Assurances Java Custom Rules
+ * Copyright (C) 2017 Sada assurances
+ * mailto:rcapraro AT sada DOT fr
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
