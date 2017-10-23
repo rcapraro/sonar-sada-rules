@@ -148,7 +148,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <pluginKey>sada-java</pluginKey>
-                    <pluginName>SonarQube SADA Assurances Java Rules</pluginName>
+                    <pluginName>SonarJavaSADA</pluginName>
                     <pluginClass>com.sada.java.SadaJavaRulesPlugin</pluginClass>
                     <sonarLintSupported>true</sonarLintSupported>
                     <sonarQubeMinVersion>5.6</sonarQubeMinVersion> <!-- allow to depend on API 6.x but run on LTS -->
